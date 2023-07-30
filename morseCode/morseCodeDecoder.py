@@ -9,16 +9,6 @@ def split(data):
         temp.append(val)
     return temp
 
-def pop(data):
-    temp = []
-    arr = ""
-    for i in range(len(data) - 1):
-        temp.append(data[i])
-    for val in temp:
-        arr+=val
-    return arr
-
-
      
 def decode(data):
     definition = definitions()
